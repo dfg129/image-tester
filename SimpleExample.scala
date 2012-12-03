@@ -22,6 +22,7 @@ object SimpleExample extends App {
     props = Props(new HttpClient(ioBridge)),
     name = "http-client"
   )
+  
 
   // create a very basic HttpDialog that results in a Future[HttpResponse]
   log.info("Dispatching GET request to github.com")
