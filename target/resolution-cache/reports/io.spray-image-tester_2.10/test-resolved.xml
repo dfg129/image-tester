@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="io.spray"
+		module="image-tester_2.10"
+		revision="1.1-M6"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20121202095531"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10.0-RC3">
+			<revision name="2.1.0-RC3" status="release" pubdate="20121126180844" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3069" time="0" location="/Users/dgibbons/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10.0-RC3/ivy-2.1.0-RC3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10.0-RC3/2.1.0-RC3/akka-slf4j_2.10.0-RC3-2.1.0-RC3.pom"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="2.1.0-RC3" rev-constraint-default="2.1.0-RC3" rev-constraint-dynamic="2.1.0-RC3" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.10.0-RC3" type="bundle" ext="jar" status="no" details="" size="13452" time="0" location="/Users/dgibbons/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10.0-RC3/bundles/akka-slf4j_2.10.0-RC3-2.1.0-RC3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10.0-RC3/2.1.0-RC3/akka-slf4j_2.10.0-RC3-2.1.0-RC3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.7" status="release" pubdate="20120823181347" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10066" time="0" location="/Users/dgibbons/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.pom"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="1.0.7" rev-constraint-default="1.0.7" rev-constraint-dynamic="1.0.7" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="251679" time="0" location="/Users/dgibbons/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.7" status="release" pubdate="20120823181302" resolver="public" artresolver="public" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9604" time="0" location="/Users/dgibbons/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.0.7" rev-constraint-default="1.0.7" rev-constraint-dynamic="1.0.7" callerrev="1.0.7"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="364399" time="0" location="/Users/dgibbons/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.2" status="release" pubdate="20121011145524" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<metadata-artifact status="no" details="" size="4469" time="0" location="/Users/dgibbons/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="1.0.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10.0-RC3" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.1.0-RC3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26083" time="0" location="/Users/dgibbons/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.7.2"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="1.0.7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can">
+			<revision name="1.1-M6" status="release" pubdate="20121130114901" resolver="spray repo" artresolver="spray repo" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3388" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-can/ivy-1.1-M6.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.io/io/spray/spray-can/1.1-M6/spray-can-1.1-M6.pom"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="spray-can" type="jar" ext="jar" status="no" details="" size="394929" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-can/jars/spray-can-1.1-M6.jar">
+						<origin-location is-local="false" location="http://repo.spray.io/io/spray/spray-can/1.1-M6/spray-can-1.1-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io">
+			<revision name="1.1-M6" status="release" pubdate="20121130114904" resolver="spray repo" artresolver="spray repo" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3124" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-io/ivy-1.1-M6.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.io/io/spray/spray-io/1.1-M6/spray-io-1.1-M6.pom"/>
+				<caller organisation="io.spray" name="spray-can" conf="default, compile, runtime, master" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="spray-io" type="jar" ext="jar" status="no" details="" size="316011" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-io/jars/spray-io-1.1-M6.jar">
+						<origin-location is-local="false" location="http://repo.spray.io/io/spray/spray-io/1.1-M6/spray-io-1.1-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util">
+			<revision name="1.1-M6" status="release" pubdate="20121130114909" resolver="spray repo" artresolver="spray repo" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2996" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-util/ivy-1.1-M6.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.io/io/spray/spray-util/1.1-M6/spray-util-1.1-M6.pom"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="spray-can" conf="default, compile, runtime, master" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="spray-util" type="jar" ext="jar" status="no" details="" size="116536" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-util/jars/spray-util-1.1-M6.jar">
+						<origin-location is-local="false" location="http://repo.spray.io/io/spray/spray-util/1.1-M6/spray-util-1.1-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.10.0-RC3">
+			<revision name="1.2.3" status="release" pubdate="20121128100018" resolver="spray repo" artresolver="spray repo" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2856" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-json_2.10.0-RC3/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.io/io/spray/spray-json_2.10.0-RC3/1.2.3/spray-json_2.10.0-RC3-1.2.3.pom"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="spray-json_2.10.0-RC3" type="jar" ext="jar" status="no" details="" size="270145" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-json_2.10.0-RC3/jars/spray-json_2.10.0-RC3-1.2.3.jar">
+						<origin-location is-local="false" location="http://repo.spray.io/io/spray/spray-json_2.10.0-RC3/1.2.3/spray-json_2.10.0-RC3-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http">
+			<revision name="1.1-M6" status="release" pubdate="20121130114915" resolver="spray repo" artresolver="spray repo" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2855" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-http/ivy-1.1-M6.xml" searched="false" origin-is-local="false" origin-location="http://repo.spray.io/io/spray/spray-http/1.1-M6/spray-http-1.1-M6.pom"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="spray-can" conf="default, compile, runtime, master" rev="1.1-M6" rev-constraint-default="1.1-M6" rev-constraint-dynamic="1.1-M6" callerrev="1.1-M6"/>
+				<artifacts>
+					<artifact name="spray-http" type="jar" ext="jar" status="no" details="" size="835491" time="0" location="/Users/dgibbons/.ivy2/cache/io.spray/spray-http/jars/spray-http-1.1-M6.jar">
+						<origin-location is-local="false" location="http://repo.spray.io/io/spray/spray-http/1.1-M6/spray-http-1.1-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.10.0-RC3">
+			<revision name="1.1.4" status="release" pubdate="20121127112703" resolver="public" artresolver="public" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="/Users/dgibbons/.ivy2/cache/org.parboiled/parboiled-scala_2.10.0-RC3/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.10.0-RC3/1.1.4/parboiled-scala_2.10.0-RC3-1.1.4.pom"/>
+				<caller organisation="io.spray" name="spray-http" conf="default, compile, runtime, master" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="spray-json_2.10.0-RC3" conf="default, compile, runtime, master" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.10.0-RC3" type="jar" ext="jar" status="no" details="" size="237911" time="0" location="/Users/dgibbons/.ivy2/cache/org.parboiled/parboiled-scala_2.10.0-RC3/jars/parboiled-scala_2.10.0-RC3-1.1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.10.0-RC3/1.1.4/parboiled-scala_2.10.0-RC3-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.4" status="release" pubdate="20121127112718" resolver="public" artresolver="public" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/dgibbons/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10.0-RC3" conf="compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="184943" time="0" location="/Users/dgibbons/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10.0-RC3">
+			<revision name="2.1.0-RC3" status="release" pubdate="20121126180739" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/dgibbons/.ivy2/cache/com.typesafe.akka/akka-actor_2.10.0-RC3/ivy-2.1.0-RC3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10.0-RC3/2.1.0-RC3/akka-actor_2.10.0-RC3-2.1.0-RC3.pom"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="2.1.0-RC3" rev-constraint-default="2.1.0-RC3" rev-constraint-dynamic="2.1.0-RC3" callerrev="1.1-M6"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10.0-RC3" conf="default, compile, runtime, master" rev="2.1.0-RC3" rev-constraint-default="2.1.0-RC3" rev-constraint-dynamic="2.1.0-RC3" callerrev="2.1.0-RC3"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10.0-RC3" type="bundle" ext="jar" status="no" details="" size="1889057" time="0" location="/Users/dgibbons/.ivy2/cache/com.typesafe.akka/akka-actor_2.10.0-RC3/bundles/akka-actor_2.10.0-RC3-2.1.0-RC3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10.0-RC3/2.1.0-RC3/akka-actor_2.10.0-RC3-2.1.0-RC3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.0.0" status="release" pubdate="20121015090115" resolver="public" artresolver="public" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2725" time="0" location="/Users/dgibbons/.ivy2/cache/com.typesafe/config/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.0/config-1.0.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10.0-RC3" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="2.1.0-RC3"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="185676" time="0" location="/Users/dgibbons/.ivy2/cache/com.typesafe/config/bundles/config-1.0.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.0/config-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.0-RC3" status="release" pubdate="20121121143324" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2396" time="0" location="/Users/dgibbons/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.0-RC3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.0-RC3/scala-library-2.10.0-RC3.pom"/>
+				<caller organisation="io.spray" name="spray-util" conf="compile, runtime" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="spray-io" conf="compile, runtime" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="spray-http" conf="default, compile, runtime, master" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.1-M6"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10.0-RC3" conf="default, compile, runtime, master" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="2.1.0-RC3"/>
+				<caller organisation="io.spray" name="spray-json_2.10.0-RC3" conf="default, compile, runtime, master" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.2.3"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10.0-RC3" conf="compile, runtime" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.1.4"/>
+				<caller organisation="io.spray" name="image-tester_2.10" conf="test, compile, runtime" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.1-M6"/>
+				<caller organisation="io.spray" name="spray-can" conf="default, compile, runtime, master" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="1.1-M6"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10.0-RC3" conf="default, compile, runtime, master" rev="2.10.0-RC3" rev-constraint-default="2.10.0-RC3" rev-constraint-dynamic="2.10.0-RC3" callerrev="2.1.0-RC3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
