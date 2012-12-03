@@ -1,4 +1,4 @@
-package org.imagetest
+package test.image
 
 import scala.concurrent.Future
 import akka.actor.{ActorSystem, Props}
